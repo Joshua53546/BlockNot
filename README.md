@@ -374,7 +374,7 @@ be able to know about those rollovers and your results will be inaccurate.
 Realistically, you should never use a MICROSECONDS timer if your event durations are always longer
 than one million microseconds, and certainly you should never use a MICROSECONDS timer for durations
 longer than an hour. **If you need to track intervals of time that are longer than an hour, 
-USE SECONDS OR MICROSECONDS!**
+USE SECONDS OR MILLISECONDS!**
 
 ### Converting Units
 Because program storage space is extremely valuable with microcontrollers, I decided to offer the
